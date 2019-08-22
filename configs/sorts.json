@@ -1,5 +1,6 @@
 {
     "": [
+        "\u5f00\u53d1\u5b9e\u6218", 
         "readme.md", 
         "setup-online-again.md", 
         "tool-address.md", 
@@ -7,17 +8,33 @@
         "tool-account.md"
     ], 
     "__positions": {
-        "tool-account.md": 5, 
-        "tool-days.md": 4, 
-        "setup-online-again.md": 2, 
-        "readme.md": 1, 
-        "tool-address.md": 3
+        "\u5f00\u53d1\u5b9e\u6218/\u521d\u6b65\u4f7f\u7528\u4e91\u5f00\u53d1.md": 1001, 
+        "\u5f00\u53d1\u5b9e\u6218": 1, 
+        "readme.md": 2, 
+        "tool-account.md": 6, 
+        "\u5f00\u53d1\u5b9e\u6218/\u4e00\u4e2a\u5217\u8868\u5c31\u53ef\u4ee5\u662f\u4e00\u4e2a\u5c0f\u7a0b\u5e8f.md": 1004, 
+        "setup-online-again.md": 3, 
+        "tool-address.md": 4, 
+        "tool-days.md": 5, 
+        "\u5f00\u53d1\u5b9e\u6218/\u521d\u6b21\u4f7f\u7528 canvas \u753b\u5e03.md": 1003, 
+        "\u5f00\u53d1\u5b9e\u6218/canvas \u753b\u5e03\u8fdb\u9636\u4f7f\u7528.md": 1002
     }, 
+    "\u5f00\u53d1\u5b9e\u6218": [
+        "\u521d\u6b65\u4f7f\u7528\u4e91\u5f00\u53d1.md", 
+        "canvas \u753b\u5e03\u8fdb\u9636\u4f7f\u7528.md", 
+        "\u521d\u6b21\u4f7f\u7528 canvas \u753b\u5e03.md", 
+        "\u4e00\u4e2a\u5217\u8868\u5c31\u53ef\u4ee5\u662f\u4e00\u4e2a\u5c0f\u7a0b\u5e8f.md"
+    ], 
     "__raw_positions": {
-        "tool-account.md": 5, 
-        "setup-online-again.md": 2, 
-        "tool-days.md": 4, 
-        "tool-address.md": 3, 
-        "readme.md": 1
+        "\u5f00\u53d1\u5b9e\u6218/canvas \u753b\u5e03\u8fdb\u9636\u4f7f\u7528.md": 2, 
+        "tool-days.md": 5, 
+        "tool-account.md": 6, 
+        "\u5f00\u53d1\u5b9e\u6218/\u4e00\u4e2a\u5217\u8868\u5c31\u53ef\u4ee5\u662f\u4e00\u4e2a\u5c0f\u7a0b\u5e8f.md": 4, 
+        "setup-online-again.md": 3, 
+        "\u5f00\u53d1\u5b9e\u6218/\u521d\u6b65\u4f7f\u7528\u4e91\u5f00\u53d1.md": 1, 
+        "tool-address.md": 4, 
+        "\u5f00\u53d1\u5b9e\u6218": 1, 
+        "\u5f00\u53d1\u5b9e\u6218/\u521d\u6b21\u4f7f\u7528 canvas \u753b\u5e03.md": 3, 
+        "readme.md": 2
     }
 }
