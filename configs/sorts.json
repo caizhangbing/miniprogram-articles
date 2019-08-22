@@ -19,20 +19,20 @@
         "tool-account.md": 6, 
         "setup-online-again.md": 3, 
         "develop/how-to-use-the-third-data.md": 1002, 
-        "develop/cloud-develop.md": 1003, 
+        "develop/cloud-develop.md": 1001, 
         "tool-wxcover.md": 9, 
         "tool-address.md": 4, 
-        "develop/canvas-first-use.md": 1005, 
+        "develop/canvas-first-use.md": 1004, 
         "tool-days.md": 5, 
-        "develop/a-list-a-miniprogram.md": 1001, 
-        "develop/canvas-advanced.md": 1004
+        "develop/a-list-a-miniprogram.md": 1005, 
+        "develop/canvas-advanced.md": 1003
     }, 
     "develop": [
-        "a-list-a-miniprogram.md", 
-        "how-to-use-the-third-data.md", 
         "cloud-develop.md", 
+        "how-to-use-the-third-data.md", 
         "canvas-advanced.md", 
         "canvas-first-use.md", 
+        "a-list-a-miniprogram.md", 
         "_wechat_theme_demo.txt"
     ], 
     "__raw_positions": {
@@ -41,15 +41,15 @@
         "tool-future.md": 8, 
         "develop/_wechat_theme_demo.txt": 6, 
         "tool-account.md": 6, 
-        "develop/cloud-develop.md": 3, 
+        "develop/cloud-develop.md": 1, 
         "develop/how-to-use-the-third-data.md": 2, 
         "setup-online-again.md": 3, 
         "tool-wxcover.md": 9, 
         "tool-address.md": 4, 
-        "develop/canvas-first-use.md": 5, 
-        "develop/canvas-advanced.md": 4, 
+        "develop/canvas-first-use.md": 4, 
+        "develop/canvas-advanced.md": 3, 
         "tool-days.md": 5, 
-        "develop/a-list-a-miniprogram.md": 1, 
+        "develop/a-list-a-miniprogram.md": 5, 
         "readme.md": 2
     }
 }
