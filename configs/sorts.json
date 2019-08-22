@@ -1,40 +1,55 @@
 {
     "": [
-        "\u5f00\u53d1\u5b9e\u6218", 
+        "develop", 
         "readme.md", 
         "setup-online-again.md", 
         "tool-address.md", 
         "tool-days.md", 
-        "tool-account.md"
+        "tool-account.md", 
+        "tool-history.md", 
+        "tool-future.md", 
+        "tool-wxcover.md"
     ], 
     "__positions": {
-        "\u5f00\u53d1\u5b9e\u6218/\u521d\u6b65\u4f7f\u7528\u4e91\u5f00\u53d1.md": 1001, 
-        "\u5f00\u53d1\u5b9e\u6218": 1, 
+        "tool-history.md": 7, 
+        "develop": 1, 
+        "tool-future.md": 8, 
         "readme.md": 2, 
+        "develop/_wechat_theme_demo.txt": 1006, 
         "tool-account.md": 6, 
-        "\u5f00\u53d1\u5b9e\u6218/\u4e00\u4e2a\u5217\u8868\u5c31\u53ef\u4ee5\u662f\u4e00\u4e2a\u5c0f\u7a0b\u5e8f.md": 1004, 
         "setup-online-again.md": 3, 
+        "develop/how-to-use-the-third-data.md": 1002, 
+        "develop/cloud-develop.md": 1003, 
+        "tool-wxcover.md": 9, 
         "tool-address.md": 4, 
+        "develop/canvas-first-use.md": 1005, 
         "tool-days.md": 5, 
-        "\u5f00\u53d1\u5b9e\u6218/\u521d\u6b21\u4f7f\u7528 canvas \u753b\u5e03.md": 1003, 
-        "\u5f00\u53d1\u5b9e\u6218/canvas \u753b\u5e03\u8fdb\u9636\u4f7f\u7528.md": 1002
+        "develop/a-list-a-miniprogram.md": 1001, 
+        "develop/canvas-advanced.md": 1004
     }, 
-    "\u5f00\u53d1\u5b9e\u6218": [
-        "\u521d\u6b65\u4f7f\u7528\u4e91\u5f00\u53d1.md", 
-        "canvas \u753b\u5e03\u8fdb\u9636\u4f7f\u7528.md", 
-        "\u521d\u6b21\u4f7f\u7528 canvas \u753b\u5e03.md", 
-        "\u4e00\u4e2a\u5217\u8868\u5c31\u53ef\u4ee5\u662f\u4e00\u4e2a\u5c0f\u7a0b\u5e8f.md"
+    "develop": [
+        "a-list-a-miniprogram.md", 
+        "how-to-use-the-third-data.md", 
+        "cloud-develop.md", 
+        "canvas-advanced.md", 
+        "canvas-first-use.md", 
+        "_wechat_theme_demo.txt"
     ], 
     "__raw_positions": {
-        "\u5f00\u53d1\u5b9e\u6218/canvas \u753b\u5e03\u8fdb\u9636\u4f7f\u7528.md": 2, 
-        "tool-days.md": 5, 
+        "tool-history.md": 7, 
+        "develop": 1, 
+        "tool-future.md": 8, 
+        "develop/_wechat_theme_demo.txt": 6, 
         "tool-account.md": 6, 
-        "\u5f00\u53d1\u5b9e\u6218/\u4e00\u4e2a\u5217\u8868\u5c31\u53ef\u4ee5\u662f\u4e00\u4e2a\u5c0f\u7a0b\u5e8f.md": 4, 
+        "develop/cloud-develop.md": 3, 
+        "develop/how-to-use-the-third-data.md": 2, 
         "setup-online-again.md": 3, 
-        "\u5f00\u53d1\u5b9e\u6218/\u521d\u6b65\u4f7f\u7528\u4e91\u5f00\u53d1.md": 1, 
+        "tool-wxcover.md": 9, 
         "tool-address.md": 4, 
-        "\u5f00\u53d1\u5b9e\u6218": 1, 
-        "\u5f00\u53d1\u5b9e\u6218/\u521d\u6b21\u4f7f\u7528 canvas \u753b\u5e03.md": 3, 
+        "develop/canvas-first-use.md": 5, 
+        "develop/canvas-advanced.md": 4, 
+        "tool-days.md": 5, 
+        "develop/a-list-a-miniprogram.md": 1, 
         "readme.md": 2
     }
 }
