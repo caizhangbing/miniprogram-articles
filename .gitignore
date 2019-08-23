@@ -1,2 +1,5 @@
 __mw_themes
 .Archive
+
+# Mac
+.DS_Store
