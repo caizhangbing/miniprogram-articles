@@ -1,5 +1,7 @@
 # 字节加工厂完全手册
-下面是做「字节加工厂」这个微信小程序的产品思路及开发实战系列文章。
+下图是**微信小程序「字节加工厂」**的示意图。
+
+![](./_image/2019-08-28-19-24-18.png)
 
 **产品思路**：主要阐述为什么要做这个小程序，这个内容非常的主观，都是结合我自己当前的一些经历和思考，也许是对某一类工具的主观分析，又或者是，根本没有什么理由，就是我想要，那便做了。
 
@@ -8,12 +10,13 @@
 ### 产品思路系列文章
 每一个小工具，都应该有它诞生的理由，有些可能很严肃，有些可能很随意，但，总要有点什么。
 
-- [收藏地址](./tool-address.md)
-- [计算日子](./tool-days.md)
-- [账号箱](./tool-account.md)
-- [历史上的今天](./tool-history.md)
-- [写给未来的信](./tool-future.md)
-- [文字封面](./tool-wxcover.md)
+- [收藏地址](./product/tool-address.md)
+- [计算日子](./product/tool-days.md)
+- [计算日子 - 纪念功能](./product/tool-days2.md)
+- [账号箱](./product/tool-account.md)
+- [历史上的今天](./product/tool-history.md)
+- [写给未来的信](./product/tool-future.md)
+- [文字封面](./product/tool-wxcover.md)
 - ......
 
 
@@ -30,3 +33,13 @@
 - [如何调用第三方数据接口](./develop/how-to-use-the-third-data.md)
 - [初步使用云函数开发](./develop/cloud-develop.md)
 - ......
+
+- - - - - 
+
+如果你也对**微信小程序**的产品设计与开发感兴趣的话，欢迎扫描下方二维码，加入免费的知识星球，一起探讨小程序的产品设计与开发。
+
+![](./_image/zsxq-byte-factory.jpg)
+
+也可以关注我的微信公众账号：**个人学习**，了解我的个人成长经历。
+
+![](./_image/wxqrcode_self.png)

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>初次使用 Canvas 画布</title>
+
+    <meta charset="UTF-8"/>
+
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+
+    <meta name="HandheldFriendly" content="true"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+    <link href="../asset/fit/basic_markdown.css" type="text/css" rel="stylesheet"/>
+    <link href="../asset/fit/style.css" type="text/css" rel="stylesheet"/>
+    <link href="../asset/fit/sidebar/auto_sidebar.css" type="text/css" rel="stylesheet"/>
+
+    <style type="text/css">
+        body {margin-left: 270px}
+        .index {width: 270px}
+
+        
+            span.md_line{margin-bottom:0.5em; display:block; line-height:1.89}
+            .md_line br{ display: none;}
+            
+    </style>
+
+    <script>
+        var flowchat_options = {
+            'x': 0, 'y': 0, 'line-width': 1, 'line-length': 50, 'text-margin': 10, 'font-size': 13,
+            'font-color': '#3c3c3c', 'line-color': '#666666', 'element-color': '#666666', 'fill': 'transparent',
+            'yes-text': 'yes', 'no-text': 'no', 'arrow-end': 'block', 'class': 'flowchart', 'scale': 1,
+            'symbols': { 'start': {}, 'end': {}, 'condition': {}, 'inputoutput': {}, 'operation': {}, 'subroutine': {}}
+        }
+    </script>
+    <script type="text/javascript" src="../asset/other/raphael-min.js"></script>
+    <script type="text/javascript" src="../asset/other/flowchart.js"></script>
+    <script type="text/javascript" src="../asset/other/echarts.min.js"></script>
+
+    <link href="../asset/other/mermaid/mermaid.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="../asset/other/mermaid/mermaid.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+
+
+
+<div class="sidebar">
+    <div class="sidebar_body">
+        <div class="index">
+            <ul class="index_body">
+                <li class="title">
+                    <a href="../index.html">字节工厂</a>
+                </li>
+                
+                    
+                    
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../README.html" ><b>1</b> 字节加工厂完全手册</a>
+        
+            
+                        
+                    
+        
+    </li>
+
+
+                
+                    
+                    
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../develop/index.html" ><b>2</b> 开发实战</a>
+        
+            
+                        
+                            <ul class="articles">
+                                
+                                    
+                                        
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../develop/a-list-a-miniprogram.html" ><b>2.1</b> 一个列表就可以是一个小程序</a>
+        
+    </li>
+
+                                    
+                                
+                                    
+                                        
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../develop/canvas-advanced.html" ><b>2.2</b> Canvas 画布进阶使用</a>
+        
+    </li>
+
+                                    
+                                
+                                    
+                                        
+    
+    <li class="item active">
+        
+        
+        <a class="link_in_site" href="../develop/canvas-first-use.html" ><b>2.3</b> 初次使用 Canvas 画布</a>
+        
+    </li>
+
+                                    
+                                
+                                    
+                                        
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../develop/cloud-develop.html" ><b>2.4</b> 初步使用云开发</a>
+        
+    </li>
+
+                                    
+                                
+                                    
+                                        
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../develop/how-to-use-the-third-data.html" ><b>2.5</b> 如何调用第三方接口数据</a>
+        
+    </li>
+
+                                    
+                                
+                            </ul>
+                        
+                    
+        
+    </li>
+
+
+                
+                    
+                    
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../product/index.html" ><b>3</b> 产品思路</a>
+        
+            
+                        
+                            <ul class="articles">
+                                
+                                    
+                                        
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../product/tool-account.html" ><b>3.1</b> 谈一谈关于账号密码的存储工具 | 账号箱</a>
+        
+    </li>
+
+                                    
+                                
+                                    
+                                        
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../product/tool-address.html" ><b>3.2</b> 两个 API 就能实现的小工具 | 收藏地址</a>
+        
+    </li>
+
+                                    
+                                
+                                    
+                                        
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../product/tool-days.html" ><b>3.3</b> 功能全未必是好的解决方案 | 计算日子</a>
+        
+    </li>
+
+                                    
+                                
+                                    
+                                        
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../product/tool-days2.html" ><b>3.4</b> tool-days2</a>
+        
+    </li>
+
+                                    
+                                
+                                    
+                                        
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../product/tool-future.html" ><b>3.5</b> 很多事情，过程比结果重要 | 写给未来的信</a>
+        
+    </li>
+
+                                    
+                                
+                                    
+                                        
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../product/tool-history.html" ><b>3.6</b> 唯一个有在线数据的工具 | 历史上的今天</a>
+        
+    </li>
+
+                                    
+                                
+                                    
+                                        
+    
+    <li class="item">
+        
+        
+        <a class="link_in_site" href="../product/tool-wxcover.html" ><b>3.7</b> 最像工具的一款工具 | 文字封面</a>
+        
+    </li>
+
+                                    
+                                
+                            </ul>
+                        
+                    
+        
+    </li>
+
+
+                
+            </ul>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="content">
+    <div class="content_body">
+        <h2 class="post_title">
+            初次使用 Canvas 画布
+        </h2>
+        <div class="post_body">
+            <div class="markdown">
+                <p class="md_block">
+    <span class="md_line md_line_start md_line_end">列表页就不多说了，下面主要介绍一下，表单页以及分享页。表单页面有两个字段，一个是文本框，另一个是日期选择器。部分代码如下：</span>
+</p>
+
+<div class="codehilite code_lang_html  highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">view</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;cu-form-group margin-top&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">view</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;title&quot;</span><span class="p">&gt;</span>名称<span class="p">&lt;/</span><span class="nt">view</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">&quot;结婚/生日/高考/...&quot;</span> <span class="na">bindchange</span><span class="o">=</span><span class="s">&quot;inputChange&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">input</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">view</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">view</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;cu-form-group&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">view</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;title&quot;</span><span class="p">&gt;</span>日期<span class="p">&lt;/</span><span class="nt">view</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">picker</span> <span class="na">mode</span><span class="o">=</span><span class="s">&quot;date&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;{{**date**}}&quot;</span> <span class="na">bindchange</span><span class="o">=</span><span class="s">&quot;dateChange&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">view</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;picker&quot;</span><span class="p">&gt;</span>
+      {{**date**}}
+    <span class="p">&lt;/</span><span class="nt">view</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">picker</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">view</span><span class="p">&gt;</span>
+
+<span class="p">&lt;</span><span class="nt">view</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;padding lp-bottom&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;cu-btn block bg-{{**mainColor**}} round lg shadow&quot;</span> <span class="na">bindtap</span><span class="o">=</span><span class="s">&quot;add&quot;</span><span class="p">&gt;</span>保存<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">view</span><span class="p">&gt;</span>
+</pre></div>
+
+<!--block_code_end-->
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">保存按钮绑定了 add 事件函数，点击保存按钮的时候，将数据写入缓存中，然后跳转到列表页。</span>
+</p>
+
+<div class="codehilite code_lang_js  highlight"><pre><span></span><span class="nx">add</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">){</span>
+  <span class="kd">var</span> <span class="nx">title</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">title</span><span class="p">;</span>
+  <span class="kd">var</span> <span class="nx">date</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">date</span><span class="p">;</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">title</span> <span class="o">||</span> <span class="o">!</span><span class="nx">date</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">wx</span><span class="p">.</span><span class="nx">showToast</span><span class="p">({</span>
+      <span class="nx">title</span><span class="o">:</span> <span class="s1">&#39;名称不能为空&#39;</span><span class="p">,</span>
+      <span class="nx">icon</span><span class="o">:</span> <span class="s1">&#39;none&#39;</span><span class="p">,</span>
+      <span class="nx">duration</span><span class="o">:</span> <span class="mi">2000</span>
+    <span class="p">})</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">day</span> <span class="o">=</span> <span class="p">{</span>
+      <span class="nx">title</span><span class="p">,</span>
+      <span class="nx">date</span>
+    <span class="p">};</span>
+    <span class="nx">wx</span><span class="p">.</span><span class="nx">getStorage</span><span class="p">({</span>
+      <span class="nx">key</span><span class="o">:</span> <span class="s1">&#39;days_list&#39;</span><span class="p">,</span>
+      <span class="nx">success</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">res</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">day</span><span class="p">);</span>
+        <span class="nx">wx</span><span class="p">.</span><span class="nx">setStorageSync</span><span class="p">(</span><span class="s1">&#39;days_list&#39;</span><span class="p">,</span> <span class="nx">res</span><span class="p">.</span><span class="nx">data</span><span class="p">);</span>
+        <span class="nx">wx</span><span class="p">.</span><span class="nx">navigateBack</span><span class="p">({</span>
+          <span class="nx">delta</span><span class="o">:</span> <span class="mi">1</span>
+        <span class="p">})</span>
+      <span class="p">}</span>
+    <span class="p">})</span>
+  <span class="p">}</span>
+<span class="p">},</span>
+</pre></div>
+
+<!--block_code_end-->
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">上述代码做了一个简单的校验，然后保存数据就跳转到首页，所以这里使用了同步的方式保存数据，否则列表页上的数据不能及时显示。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">接下来就是分享卡片的功能了，由于微信官方对分享功能的限制，所以，针对分享，几乎都是通过保存图片的方式实现。保存图片需要使用 canvas 画布，然后才能调用官方 API 实现。首先看下页面代码： </span>
+</p>
+
+<div class="codehilite code_lang_html  highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">canvas</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;width: 100%; height: 200px;&quot;</span> <span class="na">canvas-id</span><span class="o">=</span><span class="s">&quot;firstCanvas&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">canvas</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">view</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;cu-form-group&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">view</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;title&quot;</span><span class="p">&gt;</span>是否显示目标日<span class="p">&lt;/</span><span class="nt">view</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">switch</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;green radius sm&quot;</span> <span class="na">checked</span> <span class="na">bindchange</span><span class="o">=</span><span class="s">&quot;switchChange&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">switch</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">view</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">view</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;lp-twoBottomBtn&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;cu-btn bg-green round lg&quot;</span> <span class="na">open-type</span><span class="o">=</span><span class="s">&#39;share&#39;</span><span class="p">&gt;</span>发给好友<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">button</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;cu-btn bg-red round lg&quot;</span> <span class="na">bindtap</span><span class="o">=</span><span class="s">&quot;saveToImg&quot;</span> <span class="na">loading</span><span class="o">=</span><span class="s">&#39;{{ isLoading }}&#39;</span><span class="p">&gt;</span>保存卡片<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">view</span><span class="p">&gt;</span>
+</pre></div>
+
+<!--block_code_end-->
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">这里添加了一个自定义的功能（是否显示目标日），实现原理就是，clear 后重新绘制。代码如下：</span>
+</p>
+
+<div class="codehilite code_lang_js  highlight"><pre><span></span><span class="nx">switchChange</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">){</span>
+  <span class="kd">var</span> <span class="nx">value</span> <span class="o">=</span> <span class="nx">e</span><span class="p">.</span><span class="nx">detail</span><span class="p">.</span><span class="nx">value</span><span class="p">;</span>
+  <span class="k">if</span><span class="p">(</span><span class="nx">value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">clearDate</span><span class="p">();</span>
+    <span class="nx">drawCard</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">title</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">date</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">number</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">isPast</span><span class="p">);</span>
+  <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+    <span class="nx">clearDate</span><span class="p">();</span>
+    <span class="nx">drawCard</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">title</span><span class="p">,</span> <span class="s1">&#39;xxxx-xx-xx&#39;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">number</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">isPast</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+<!--block_code_end-->
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">这里定义了两个方法，一个是 clearDate()，一个是 drawCard()，传入固定的参数绘制图形，具体绘制的代码就不贴了，又长又臭，主要就是通过 <code>wx.createContext</code> 获取 context 对象后，画框，画字，画图片。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">另外，绘制完卡片后，有一个保存到相册的功能，这个直接使用官方提供的 API 就可以实现了。</span>
+</p>
+
+<div class="codehilite code_lang_js  highlight"><pre><span></span><span class="nx">saveToImg</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">that</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">setData</span><span class="p">({</span>
+    <span class="nx">isLoading</span><span class="o">:</span> <span class="kc">true</span>
+  <span class="p">});</span>
+  <span class="nx">wx</span><span class="p">.</span><span class="nx">canvasToTempFilePath</span><span class="p">({</span>
+    <span class="nx">canvasId</span><span class="o">:</span> <span class="s1">&#39;firstCanvas&#39;</span><span class="p">,</span>
+    <span class="nx">fileType</span><span class="o">:</span> <span class="s1">&#39;jpg&#39;</span><span class="p">,</span>
+    <span class="nx">quality</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="nx">success</span><span class="p">(</span><span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">wx</span><span class="p">.</span><span class="nx">saveImageToPhotosAlbum</span><span class="p">({</span>
+        <span class="nx">filePath</span><span class="o">:</span> <span class="nx">res</span><span class="p">.</span><span class="nx">tempFilePath</span><span class="p">,</span>
+        <span class="nx">success</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+          <span class="nx">that</span><span class="p">.</span><span class="nx">setData</span><span class="p">({</span>
+            <span class="nx">isLoading</span><span class="o">:</span> <span class="kc">false</span>
+          <span class="p">});</span>
+          <span class="nx">wx</span><span class="p">.</span><span class="nx">showToast</span><span class="p">({</span>
+            <span class="nx">title</span><span class="o">:</span> <span class="s1">&#39;保存成功&#39;</span>
+          <span class="p">})</span>
+        <span class="p">}</span>
+      <span class="p">});</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+<!--block_code_end-->
+            </div>
+        </div>
+        
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="sidebar_clicker click_to_close_sidebar">
+    <span class="bar"></span>
+</div>
+
+
+
+
+<script type="text/javascript" src="../asset/fit/jquery.js"></script>
+<script type="text/javascript" src="../asset/fit/sidebar/auto_sidebar.js"></script>
+
+
+
+
+
+<script>
+    run_sidebar("left", 'sidebar', 270, "show");
+
+    $(document).ready(function(){
+        var sidebar = $('.index_body'); var current = $('.index_body .active');
+        if (sidebar.length && current.length){ sidebar.scrollTop(current.offset().top - sidebar.height()/2 + 100);}
+    })
+</script>
+
+
+
+</body>
+
+</html>
