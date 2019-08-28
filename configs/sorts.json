@@ -2,30 +2,30 @@
     "": [
         "index.md", 
         "product", 
+        "develop", 
         "readme.md", 
-        "_wechat_theme_demo.txt", 
-        "develop"
+        "_wechat_theme_demo.txt"
     ], 
     "__positions": {
         "product/tool-history.md": 2006, 
         "product": 2, 
         "product/tool-days.md": 2003, 
-        "develop": 5, 
+        "develop": 3, 
         "product/tool-account.md": 2005, 
-        "readme.md": 3, 
+        "readme.md": 4, 
         "product/tool-days2.md": 2004, 
         "product/tool-wxcover.md": 2008, 
         "index.md": 1, 
         "product/tool-address.md": 2002, 
-        "develop/how-to-use-the-third-data.md": 5005, 
-        "develop/cloud-develop.md": 5006, 
+        "develop/how-to-use-the-third-data.md": 3005, 
+        "develop/cloud-develop.md": 3006, 
         "product/index.md": 2001, 
-        "develop/canvas-first-use.md": 5003, 
-        "develop/canvas-advanced.md": 5004, 
-        "develop/index.md": 5001, 
-        "develop/a-list-a-miniprogram.md": 5002, 
+        "develop/canvas-first-use.md": 3003, 
+        "develop/canvas-advanced.md": 3004, 
+        "develop/index.md": 3001, 
+        "develop/a-list-a-miniprogram.md": 3002, 
         "product/tool-future.md": 2007, 
-        "_wechat_theme_demo.txt": 4
+        "_wechat_theme_demo.txt": 5
     }, 
     "product": [
         "index.md", 
@@ -48,7 +48,7 @@
     "__raw_positions": {
         "product": 2, 
         "product/tool-days.md": 3, 
-        "develop": 5, 
+        "develop": 3, 
         "develop/index.md": 1, 
         "develop/canvas-advanced.md": 4, 
         "develop/a-list-a-miniprogram.md": 2, 
@@ -61,9 +61,9 @@
         "product/index.md": 1, 
         "develop/canvas-first-use.md": 3, 
         "product/tool-history.md": 6, 
-        "_wechat_theme_demo.txt": 4, 
+        "_wechat_theme_demo.txt": 5, 
         "product/tool-days2.md": 4, 
         "product/tool-future.md": 7, 
-        "readme.md": 3
+        "readme.md": 4
     }
 }
