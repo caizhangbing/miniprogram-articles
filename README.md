@@ -13,7 +13,7 @@
     - [文字封面](./product/07_tool-wxcover.md)
     - ......
 - [开发实战](./develop/index.md)
-    - [一个列表就可以是一个小程序](./develop/01_a-list-a-miniprogram.md)
+    - [一个列表就可以是一个小程序](./develop/01_know-page.md)
     - [初次使用 Canvas 画布](./develop/canvas-first-use.md)
     - [Canvas 画布进阶使用](./develop/canvas-advanced.md)
     - [如何调用第三方数据接口](./develop/how-to-use-the-third-data.md)
