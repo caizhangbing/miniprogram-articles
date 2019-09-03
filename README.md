@@ -13,7 +13,10 @@
     - [文字封面](./product/07_tool-wxcover.md)
     - ......
 - [开发实战](./develop/index.md)
-    - [一个列表就可以是一个小程序](./develop/01_know-page.md)
+    - [了解小程序的页面逻辑](./develop/01_know-page.md)
+    - [Hello, World | 写一个完整的页面](./develop/02_first-page.md)
+    - [实现页面交互 | 地图 API 的使用](./develop/03_map-api-use.md)
+    - [数据持久化保存 | Storage API 的使用](./develop/04_storage-use.md)
     - [初次使用 Canvas 画布](./develop/canvas-first-use.md)
     - [Canvas 画布进阶使用](./develop/canvas-advanced.md)
     - [如何调用第三方数据接口](./develop/how-to-use-the-third-data.md)
