@@ -18,6 +18,7 @@
         "product/02_tool-days.md": 1003, 
         "develop/01_know-page.md": 2002, 
         "product": 1, 
+        "develop/08_use_the_third_data.md": 2009, 
         "product/06_tool-future.md": 1007, 
         "product/index.md": 1001, 
         "develop/06_send_param_in_pages.md": 2007, 
@@ -27,7 +28,6 @@
         "product/04_tool-account.md": 1005, 
         "product/03_tool-days2.md": 1004, 
         "develop/07_use_npm_package.md": 2008, 
-        "develop/how-to-use-the-third-data.md": 2009, 
         "product/07_tool-wxcover.md": 1008, 
         "develop/05_canvas-first-use.md": 2006
     }, 
@@ -50,7 +50,7 @@
         "05_canvas-first-use.md", 
         "06_send_param_in_pages.md", 
         "07_use_npm_package.md", 
-        "how-to-use-the-third-data.md", 
+        "08_use_the_third_data.md", 
         "cloud-develop.md", 
         "canvas-advanced.md", 
         "component.md"
@@ -67,6 +67,7 @@
         "product/02_tool-days.md": 3, 
         "develop/01_know-page.md": 2, 
         "product": 1, 
+        "develop/08_use_the_third_data.md": 9, 
         "product/06_tool-future.md": 7, 
         "product/index.md": 1, 
         "develop/06_send_param_in_pages.md": 7, 
@@ -77,7 +78,6 @@
         "product/03_tool-days2.md": 4, 
         "develop/07_use_npm_package.md": 8, 
         "product/05_tool-history.md": 6, 
-        "develop/how-to-use-the-third-data.md": 9, 
         "product/07_tool-wxcover.md": 8, 
         "develop/05_canvas-first-use.md": 6
     }

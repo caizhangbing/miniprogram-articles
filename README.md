@@ -20,8 +20,8 @@
     - [初次使用 Canvas 画布](./develop/05_canvas-first-use.md)
     - [页面数据（参数）传输的方式](./develop/06_send_param_in_pages.md)
     - [如何使用第三方 npm 扩展包](./develop/07_use_npm_package.md)
+    - [如何调用第三方数据接口](./develop/08_use_the_third_data.md)
     - [Canvas 画布进阶使用](./develop/canvas-advanced.md)
-    - [如何调用第三方数据接口](./develop/how-to-use-the-third-data.md)
     - [初步使用云函数开发](./develop/cloud-develop.md)
     - ......
 
