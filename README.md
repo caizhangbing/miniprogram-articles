@@ -25,7 +25,7 @@
     - [10 学会云函数的测试](./develop/10_cloud_function_test.md)
     - [11 从文档出发来聊一聊小程序的服务端开发](./develop/11_cloud_develop_document.md)
     - [12 初步使用云数据库开发](./develop/12_cloud_database_develop.md)
-    - [13 初步使用组件功能](./develop/12_component_use.md)
+    - [13 初步使用组件功能](./develop/13_component_use.md)
     - [14 Canvas 画布进阶使用](./develop/canvas-advanced.md)
     - ......
 
