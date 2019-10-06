@@ -1,32 +1,28 @@
-# 小程序开发系列文章
-记录微信小程序「字节加工厂」的开发过程，总体分为**产品思路**和**开发实战**两个部分。
+# 小程序开发实战系列文章
+
+主要记录小程序开发的一些过程，有可能是某一种功能的实现，也有可能只是文档的使用说明，如果你也在做小程序的开发，倒是可以作为参考。
+
+当前已经完成了「入门篇」，正在准备「效率篇」。
 
 ### 目录
-- [小程序开发入门](./first.md)
-- [产品思路](./product/index.md)
-    - [收藏地址](./product/01_tool-address.md)
-    - [计算日子](./product/02_tool-days.md)
-    - [计算日子 - 纪念功能](./product/03_tool-days2.md)
-    - [账号箱](./product/04_tool-account.md)
-    - [历史上的今天](./product/05_tool-history.md)
-    - [写给未来的信](./product/06_tool-future.md)
-    - [文字封面](./product/07_tool-wxcover.md)
-    - ......
-- [开发实战](./develop/index.md)
-    - [01 了解小程序的页面逻辑](./develop/01_know-page.md)
-    - [02 Hello, World | 写一个完整的页面](./develop/02_first-page.md)
-    - [03 实现页面交互 | 地图 API 的使用](./develop/03_map-api-use.md)
-    - [04 数据持久化保存 | Storage API 的使用](./develop/04_storage-use.md)
-    - [05 初次使用 Canvas 画布](./develop/05_canvas-first-use.md)
-    - [06 页面数据（参数）传输的方式](./develop/06_send_param_in_pages.md)
-    - [07 如何使用第三方 npm 扩展包](./develop/07_use_npm_package.md)
-    - [08 如何调用第三方数据接口](./develop/08_use_the_third_data.md)
-    - [09 初步使用云函数开发](./develop/09_cloud_function_develop.md)
-    - [10 学会云函数的测试](./develop/10_cloud_function_test.md)
-    - [11 从文档出发来聊一聊小程序的服务端开发](./develop/11_cloud_develop_document.md)
-    - [12 初步使用云数据库开发](./develop/12_cloud_database_develop.md)
-    - [13 初步使用组件功能](./develop/13_component_use.md)
-    - [14 Canvas 画布进阶使用](./develop/canvas-advanced.md)
+
+- [微信小程序，入门移动端产品的最佳实践 ](./first.md)
+- [入门篇](./introduction/index.md)
+    - [01 了解小程序的页面逻辑](./introduction/01_know_page.md)
+    - [02 Hello, World | 写一个完整的页面](./introduction/02_first_page.md)
+    - [03 实现页面交互 | 地图 API 的使用](./introduction/03_map_api_use.md)
+    - [04 数据持久化保存 | Storage API 的使用](./introduction/04_storage_use.md)
+    - [05 初次使用 Canvas 画布](./introduction/05_canvas_first_use.md)
+    - [06 页面数据（参数）传输的方式](./introduction/06_send_param_in_pages.md)
+    - [07 如何使用第三方 npm 扩展包](./introduction/07_use_npm_package.md)
+    - [08 如何调用第三方数据接口](./introduction/08_use_the_third_data.md)
+    - [09 初步使用云函数开发](./introduction/09_cloud_function_introduction.md)
+    - [10 学会云函数的测试](./introduction/10_cloud_function_test.md)
+    - [11 从文档出发来聊一聊小程序的服务端开发](./introduction/11_cloud_develop_document.md)
+    - [12 初步使用云数据库开发](./introduction/12_cloud_database_develop.md)
+- [效率篇](./efficient/index.md)
+    - [13 初步使用组件功能](./efficient/component_first_use.md)
+    - [14 Canvas 画布进阶使用](./efficient/canvas-advanced.md)
     - ......
 
 ### 附录1：小程序示意图
