@@ -1,4 +1,4 @@
-# 小程序开发实战系列文章
+## 小程序开发实战系列文章
 
 主要记录小程序开发的一些过程，有可能是某一种功能的实现，也有可能只是文档的使用说明，如果你也在做小程序的开发，倒是可以作为参考。
 
@@ -7,7 +7,7 @@
 ### 目录
 
 - [微信小程序，入门移动端产品的最佳实践 ](./first.md)
-- [入门篇](./introduction/index.md)
+- [入门篇](./introduction/00_introduction.md)
     - [01 了解小程序的页面逻辑](./introduction/01_know_page.md)
     - [02 Hello, World | 写一个完整的页面](./introduction/02_first_page.md)
     - [03 实现页面交互 | 地图 API 的使用](./introduction/03_map_api_use.md)
