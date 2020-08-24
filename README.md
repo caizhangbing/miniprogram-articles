@@ -39,5 +39,3 @@ Maybe no follow-up
 ![](./_image/zsxq-byte-factory.jpg)
 
 也可以关注我的微信公众账号：**自由产品之路**，了解我的个人成长经历。
-
-![](./_image/wxqrcode_self.png)
